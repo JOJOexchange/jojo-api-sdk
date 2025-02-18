@@ -2,27 +2,36 @@
 
 JOJO API is a Python API client for interacting with the JOJO exchange. It provides the following features:
 
-- Support for public endpoints:
+- System API:
   - Get exchange time
   - Get exchange info
-  - Get orderbook depth
-  - Get trade history
+
+- Public API:
+  - Get orderbook data
+  - Get trades history
   - Get kline data
-  - Get mark price
+  - Get mark price klines
   - Get funding rate
   - Get risky accounts
+  - Get historical trades
 
-- Support for private endpoints:
-  - Account management
-  - Order management (place/cancel orders etc.)
-  - Position query
-  - Balance query
-  - Income records
-  - Trade history
+- Account API:
+  - Register and get account info
 
-- Support for subaccount authorization
+- Order API:
+  - Build and place orders
+  - Cancel single/all orders
+  - Get order details
+  - Get open orders
+  - Get order history
+  - Get user trades
+  - Get positions
+  - Get balances
+  - Get income records
+
+- Support for subaccount operations
 - Support for signature authentication
-- Support for testnet and mainnet environments
+- Support for both testnet and mainnet environments
 
 ### Installation
 
