@@ -1,4 +1,4 @@
-### Jojo API
+### JOJO API
 
 JOJO API is a Python API client for interacting with the JOJO exchange. It provides the following features:
 
